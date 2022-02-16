@@ -9,7 +9,7 @@
 <script>
 import TheHeader from "@/components/TheHeader";
 import Home from "@/views/Home";
-import TheFooter from "@/components/TheFooter";
+import TheFooter from "@/components/footer/TheFooter";
 
 export default {
   name: "App",
@@ -30,6 +30,10 @@ body {
   margin: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 h1,
 h2,
 h3,
@@ -40,5 +44,49 @@ p,
 a,
 span {
   color: $dark-liver;
+}
+
+label,
+input {
+  margin-bottom: 16px;
+}
+
+label {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: 1px solid $gray-web;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid $dark-liver;
+}
+
+.error-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+
+  svg,
+  span {
+    color: $error-red;
+  }
+
+  svg {
+    margin-right: 12px;
+  }
+
+  span {
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+  }
 }
 </style>
