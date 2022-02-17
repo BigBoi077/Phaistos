@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import TheHeader from "@/components/TheHeader";
+import TheHeader from "@/components/header/TheHeader";
 import Home from "@/views/Home";
 import TheFooter from "@/components/footer/TheFooter";
 

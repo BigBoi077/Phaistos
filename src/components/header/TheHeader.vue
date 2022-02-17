@@ -4,15 +4,11 @@
       <img src="@/assets/phaistos_logo_no_bg.png" alt="Phaistos logo" />
       <span>Phaistos</span>
     </div>
-    <nav>
+    <HamburgerMenu />
+    <nav class="menu-items">
       <ul>
         <li v-for="navItem in navItems" :key="navItem.name">
-          <router-link
-            :to="navItem.link"
-            :class="navItem.selected ? 'selected' : ''"
-          >
-            {{ navItem.name }}
-          </router-link>
+          <router-link :to="navItem.link">{{ navItem.name }}</router-link>
         </li>
       </ul>
     </nav>
@@ -20,27 +16,28 @@
 </template>
 
 <script>
+import HamburgerMenu from "@/components/header/HamburgerMenu";
 export default {
   name: "Header",
+  components: { HamburgerMenu },
   data() {
     return {
       navItems: [
         {
           name: "Home",
-          link: "#",
-          selected: true,
+          link: "/home",
         },
         {
           name: "Shop",
-          link: "#",
+          link: "/shop",
         },
         {
           name: "Woodworking",
-          link: "#",
+          link: "/woodworking",
         },
         {
           name: "About",
-          link: "#",
+          link: "/about",
         },
       ],
     };
@@ -49,7 +46,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "/src/stylesheets/phaistos.scss";
+@import "/src/stylesheets/phaistos";
 
 header {
   height: 8vw;
@@ -75,7 +72,11 @@ header {
     }
   }
 
-  nav {
+  .hamburger-menu {
+    display: none;
+  }
+
+  nav.menu-items {
     ul {
       display: flex;
       align-items: center;
@@ -108,6 +109,20 @@ header {
           width: 100%;
         }
       }
+    }
+  }
+}
+
+@media only screen and (max-width: $small-breakpoint) {
+  header {
+    .header-left {
+      img {
+        height: 50px;
+      }
+    }
+
+    nav.menu-items {
+      display: none;
     }
   }
 }
