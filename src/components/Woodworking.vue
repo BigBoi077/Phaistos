@@ -80,4 +80,14 @@ export default {
     }
   }
 }
+
+@media only screen and (max-width: $small-breakpoint) {
+  .woodworking-left {
+    width: 100vw !important;
+  }
+
+  .woodworking-right {
+    display: none;
+  }
+}
 </style>

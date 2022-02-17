@@ -59,18 +59,30 @@ export default {
 @import "/src/stylesheets/phaistos.scss";
 
 .introduction-container {
-  margin: 5% 10%;
+  margin: 10%;
 
   h2 {
     text-align: center;
     font-family: "Caudex", serif;
     font-size: 38px;
-    margin: 150px 0 75px 0;
+    margin: 100px 0 74px 0;
   }
 
   .selling-points-container {
     display: flex;
     justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: $small-breakpoint) {
+  .introduction-container {
+    .selling-points-container {
+      display: block;
+
+      .selling-point {
+        margin-bottom: 24px;
+      }
+    }
   }
 }
 </style>

@@ -52,4 +52,22 @@ export default {
     }
   }
 }
+
+@media only screen and (max-width: $small-breakpoint) {
+  .footer-logo {
+    width: 100vw;
+    flex-direction: column;
+    padding: 46px 0;
+
+    .message {
+      width: 75%;
+      text-align: center;
+
+      span,
+      p {
+        margin-top: 16px;
+      }
+    }
+  }
+}
 </style>

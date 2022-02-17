@@ -55,4 +55,14 @@ form {
     margin-bottom: 32px;
   }
 }
+
+@media only screen and (max-width: $small-breakpoint) {
+  form {
+    padding: 16px;
+
+    span {
+      margin-top: 32px;
+    }
+  }
+}
 </style>

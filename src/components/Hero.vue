@@ -86,4 +86,15 @@ export default {
     }
   }
 }
+
+@media only screen and (max-width: $small-breakpoint) {
+  .hero-message {
+    transform: translate(-50%, 110%) !important;
+    width: 75% !important;
+
+    p {
+      display: none;
+    }
+  }
+}
 </style>

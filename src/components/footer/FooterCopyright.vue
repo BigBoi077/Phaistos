@@ -3,7 +3,7 @@
     <span>{{ copyrightStamp }}</span>
     <ul>
       <li v-for="item in externalLinks" :key="item.title">
-        <router-link :href="item.href">{{ item.title }}</router-link>
+        <router-link :to="item.href">{{ item.title }}</router-link>
       </li>
     </ul>
   </div>
@@ -73,6 +73,34 @@ div {
 
       a {
         text-decoration: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $small-breakpoint) {
+  div {
+    margin-top: 32px;
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+
+    span {
+      padding: 22px 16px 0 16px;
+    }
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      padding: 16px;
+
+      li {
+        border: none;
+        padding: 0 6px;
+
+        a {
+          font-size: 12px;
+        }
       }
     }
   }

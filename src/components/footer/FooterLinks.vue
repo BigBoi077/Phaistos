@@ -135,4 +135,17 @@ export default {
     }
   }
 }
+
+@media only screen and (max-width: $small-breakpoint) {
+  .footer-links {
+    flex-direction: column;
+    padding: 32px 0 0;
+    border-bottom: 1px solid $dark-liver;
+
+    .single-listing {
+      padding: 0 60px;
+      margin-bottom: 16px;
+    }
+  }
+}
 </style>

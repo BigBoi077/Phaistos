@@ -52,4 +52,10 @@ button {
     transition: opacity 0.75s ease-in-out;
   }
 }
+
+@media only screen and (max-width: $small-breakpoint) {
+  button {
+    width: 50%;
+  }
+}
 </style>

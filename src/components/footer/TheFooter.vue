@@ -59,4 +59,15 @@ footer {
     grid-area: other;
   }
 }
+
+@media only screen and (max-width: $small-breakpoint) {
+  footer {
+    grid-template-areas:
+      "logo"
+      "links"
+      "ask"
+      "other";
+    grid-auto-rows: auto;
+  }
+}
 </style>
