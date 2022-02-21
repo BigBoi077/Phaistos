@@ -40,7 +40,11 @@ export default {
   },
   methods: {
     toggleMenu() {
+      this.lockScroll();
       this.isMenuOpen = !this.isMenuOpen;
+    },
+    lockScroll() {
+      document.getElementsByTagName("body")[0].classList.toggle("scroll-lock");
     },
   },
 };
@@ -110,7 +114,7 @@ export default {
     width: 170px;
     top: 50px;
     right: -16px;
-    z-index: 2;
+    z-index: 3;
 
     ul {
       list-style: none;
