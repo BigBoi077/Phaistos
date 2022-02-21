@@ -15,7 +15,7 @@ const routes = [
   {
     path: "/shop",
     name: "Shop",
-    component: Home,
+    component: () => import("../views/Shop"),
   },
   {
     path: "/about",
