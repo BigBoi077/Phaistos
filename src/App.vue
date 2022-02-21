@@ -1,21 +1,19 @@
 <template>
   <div id="app">
     <TheHeader />
-    <Home />
+    <router-view />
     <TheFooter />
   </div>
 </template>
 
 <script>
 import TheHeader from "@/components/header/TheHeader";
-import Home from "@/views/Home";
 import TheFooter from "@/components/footer/TheFooter";
 
 export default {
   name: "App",
   components: {
     TheFooter,
-    Home,
     TheHeader,
   },
 };
@@ -32,6 +30,11 @@ body {
 
 .hidden {
   display: none;
+}
+
+.scroll-lock {
+  height: 100%;
+  overflow: hidden;
 }
 
 h1,
