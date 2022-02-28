@@ -1,9 +1,9 @@
 <template>
   <header>
-    <div class="header-left">
+    <router-link to="/" class="header-left">
       <img src="@/assets/phaistos_logo_no_bg.png" alt="Phaistos logo" />
       <span>Phaistos</span>
-    </div>
+    </router-link>
     <HamburgerMenu />
     <nav class="menu-items">
       <ul>
@@ -59,6 +59,7 @@ header {
   .header-left {
     display: flex;
     align-items: center;
+    text-decoration: none;
 
     span {
       margin-left: 32px;
