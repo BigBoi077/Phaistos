@@ -54,6 +54,16 @@ input {
   margin-bottom: 16px;
 }
 
+form label {
+  display: block;
+}
+
+form .input-group,
+form input,
+form label {
+  width: 95%;
+}
+
 label {
   font-family: "Lato", sans-serif;
   font-size: 22px;
