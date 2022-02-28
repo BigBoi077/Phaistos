@@ -1,5 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
+import ShopItemDetail from "@/views/ShopItemDetail";
+import Shop from "@/views/Shop";
+import Page404 from "@/views/Page404";
 
 const routes = [
   {
@@ -15,7 +18,7 @@ const routes = [
   {
     path: "/shop",
     name: "Shop",
-    component: () => import("../views/Shop"),
+    component: Shop,
   },
   {
     path: "/about",
@@ -30,6 +33,17 @@ const routes = [
     path: "/woodworking",
     name: "Woodworking",
     component: Home,
+  },
+  {
+    path: "/shop/:id",
+    name: "ShopItemDetail",
+    component: ShopItemDetail,
+    props: true,
+  },
+  {
+    path: "/:catchAll(.*)",
+    name: "404",
+    component: Page404,
   },
 ];
 
