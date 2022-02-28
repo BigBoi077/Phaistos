@@ -4,7 +4,7 @@ import Home from "../views/Home.vue";
 const routes = [
   {
     path: "/",
-    name: "Home",
+    name: "Base",
     component: Home,
   },
   {
@@ -15,7 +15,7 @@ const routes = [
   {
     path: "/shop",
     name: "Shop",
-    component: Home,
+    component: () => import("../views/Shop"),
   },
   {
     path: "/about",
