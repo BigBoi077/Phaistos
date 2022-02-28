@@ -1,0 +1,174 @@
+[
+  {
+    "id": 1,
+    "name": "Chalet des boys",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
+    "imageSrc": "https://user-images.githubusercontent.com/58580199/155913291-05a18bc6-06fa-4801-a288-985f7dfbcfcb.jpg",
+    "imageAlt": "Temporibus autem quibusdam et aut officiis debitis aut rerum",
+    "price": 120.99,
+    "numberSales": 65,
+    "numberStars": 4,
+    "isInStock": true,
+    "quantity": 1,
+    "highlights": [
+      {
+        "iconName": "hand",
+        "title": "Handmade"
+      },
+      {
+        "iconName": "paintbrush",
+        "title": "Varnished 3 times for maximum protection"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Castle of Crapeau",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
+    "imageSrc": "https://user-images.githubusercontent.com/58580199/155913292-bd0b93fc-a67a-46e2-be6f-f4893cd7a0a3.jpg",
+    "imageAlt": "Temporibus autem quibusdam et aut officiis debitis aut rerum",
+    "price": 120.99,
+    "numberSales": 65,
+    "numberStars": 5,
+    "isInStock": false,
+    "quantity": 1,
+    "highlights": [
+      {
+        "iconName": "hand",
+        "title": "Handmade"
+      },
+      {
+        "iconName": "paintbrush",
+        "title": "Varnished 3 times for maximum protection"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mon beau chien d'amour",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
+    "imageSrc": "https://user-images.githubusercontent.com/58580199/155913295-25d22a80-9035-49b6-8b66-839db331c884.jpg",
+    "imageAlt": "Temporibus autem quibusdam et aut officiis debitis aut rerum",
+    "price": 120.99,
+    "numberSales": 1,
+    "numberStars": 5,
+    "isInStock": false,
+    "quantity": 1,
+    "highlights": [
+      {
+        "iconName": "heart",
+        "title": "Good doggo"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Flower Hut",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
+    "imageSrc": "https://user-images.githubusercontent.com/58580199/155913294-7707e704-6a06-4cc9-aad2-031a104abe29.jpg",
+    "imageAlt": "Temporibus autem quibusdam et aut officiis debitis aut rerum",
+    "price": 120.99,
+    "numberSales": 65,
+    "numberStars": 4,
+    "isInStock": true,
+    "quantity": 1,
+    "highlights": [
+      {
+        "iconName": "hand",
+        "title": "Handmade"
+      },
+      {
+        "iconName": "paintbrush",
+        "title": "Varnished 3 times for maximum protection"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Love House",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
+    "imageSrc": "https://user-images.githubusercontent.com/58580199/155913296-7c53d4ea-f09c-4aec-a0f4-66a594a0f629.jpg",
+    "imageAlt": "Temporibus autem quibusdam et aut officiis debitis aut rerum",
+    "price": 120.99,
+    "numberSales": 65,
+    "numberStars": 4,
+    "isInStock": true,
+    "quantity": 1,
+    "highlights": [
+      {
+        "iconName": "hand",
+        "title": "Handmade"
+      },
+      {
+        "iconName": "paintbrush",
+        "title": "Varnished 3 times for maximum protection"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Mini Shed",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
+    "imageSrc": "https://user-images.githubusercontent.com/58580199/155913297-7e2d759b-8e94-4070-9801-7b731426793a.jpg",
+    "imageAlt": "Temporibus autem quibusdam et aut officiis debitis aut rerum",
+    "price": 1200.99,
+    "numberSales": 65,
+    "numberStars": 4,
+    "isInStock": true,
+    "quantity": 1,
+    "highlights": [
+      {
+        "iconName": "hand",
+        "title": "Handmade"
+      },
+      {
+        "iconName": "paintbrush",
+        "title": "Varnished 3 times for maximum protection"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "El Trio",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
+    "imageSrc": "https://user-images.githubusercontent.com/58580199/155913298-515c9203-77dc-479b-b6ca-e49b5ebffe00.jpg",
+    "imageAlt": "Temporibus autem quibusdam et aut officiis debitis aut rerum",
+    "price": 120.99,
+    "numberSales": 65,
+    "numberStars": 4,
+    "isInStock": true,
+    "quantity": 1,
+    "highlights": [
+      {
+        "iconName": "hand",
+        "title": "Handmade"
+      },
+      {
+        "iconName": "paintbrush",
+        "title": "Varnished 3 times for maximum protection"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "The Witches Hut",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
+    "imageSrc": "https://user-images.githubusercontent.com/58580199/155913299-d30da4dc-9e0a-45f1-9791-60b0b2fdfd0b.jpg",
+    "imageAlt": "Temporibus autem quibusdam et aut officiis debitis aut rerum",
+    "price": 120.99,
+    "numberSales": 65,
+    "numberStars": 4,
+    "isInStock": true,
+    "quantity": 1,
+    "highlights": [
+      {
+        "iconName": "hand",
+        "title": "Handmade"
+      },
+      {
+        "iconName": "paintbrush",
+        "title": "Varnished 3 times for maximum protection"
+      }
+    ]
+  }
+]
