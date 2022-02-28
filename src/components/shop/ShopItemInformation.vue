@@ -68,6 +68,7 @@ export default {
     display: flex;
 
     img {
+      min-width: 45%;
       max-width: 45%;
       height: auto;
       object-fit: cover;
