@@ -18,7 +18,6 @@ h1 {
   background-color: $persian-orange;
   color: $white;
   padding: 32px 60px;
-  width: 100%;
   font-size: 38px;
   font-family: "Caudex", serif;
   font-weight: lighter;
