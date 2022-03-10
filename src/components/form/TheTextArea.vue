@@ -15,7 +15,7 @@
   />
   <div class="error-box" v-if="error !== ''">
     <font-awesome-icon icon="circle-exclamation" />
-    <span>{{ error }}</span>
+    <span>{{ inputValue }}</span>
   </div>
 </template>
 
